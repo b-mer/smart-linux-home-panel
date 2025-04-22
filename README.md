@@ -1,2 +1,2 @@
 # smart-linux-home-panel
-Work in progress home panel for any Linux device.
+Work in progress home panel made using the Express javascript framework for any Linux device.
