@@ -1,0 +1,22 @@
+{
+  "name": "smart-linux-home-panel",
+  "version": "1.0.0",
+  "description": "Smart home panel webapp for Linux.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-mer/smart-linux-home-panel.git"
+  },
+  "author": "Briar Merrett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b-mer/smart-linux-home-panel/issues"
+  },
+  "homepage": "https://github.com/b-mer/smart-linux-home-panel#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
