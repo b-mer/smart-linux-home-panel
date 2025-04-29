@@ -6,10 +6,6 @@ const port = 3000;
 
 const public_path = path.join(__dirname, 'public')
 
-app.get('/', (req, res) => {
-    res.send("testing");
-})
-
 app.use(express.static(public_path));
 
 app.listen(port, () => {

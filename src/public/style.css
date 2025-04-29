@@ -3,25 +3,49 @@ body {
     background-color: #2b2b2b;
 }
 
+/* Styling for main content outside panel. */
 #main {
     transition: margin-left .5s;
-    padding: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    transition: 0.2s;
 }
 
+/* Styling for panel button list. */
+.button_list {
+    list-style-type: none;
+    width: 100%;
+    left: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+/* List elements inside panel button list. */
+.button_list li {
+    width: 100%;
+}
+
+/* Styling for main panel. */
 .panel {
     background-color: #0b0b0b;
     height: 100%;
     width: 0;
+    font-size: 1vw;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     color: white;
     overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-left: 0;
+    transition: 0.2s;
 }
 
-@media screen and (max-height: 450px) {
-    .panel {padding-top: 450px}
+/* Styling for additional divs inside main panel */
+.panel div {
+    padding-left: 0.5vw;
 }
