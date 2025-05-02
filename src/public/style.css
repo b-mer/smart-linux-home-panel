@@ -1,3 +1,8 @@
+/* Define root variables. */
+/* :root {
+    --main-margin-left: 0;
+} */
+
 body {
     color: white;
     background-color: #2b2b2b;
@@ -11,6 +16,7 @@ body {
     padding-top: 1vh;
     padding-bottom: 1vh;
     transition: 0.2s;
+    margin-left: 0;
 }
 
 /* Styling for panel button list. */
@@ -27,6 +33,27 @@ body {
     width: 100%;
 }
 
+/* Buttons inside panel button list. */
+.button_list li button {
+    font-size: 1vw;
+    width: 80%;
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+/* Buttons inside panel button list on hover. */
+.button_list li button:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
 /* Styling for main panel. */
 .panel {
     background-color: #0b0b0b;
@@ -39,13 +66,23 @@ body {
     left: 0;
     color: white;
     overflow-x: hidden;
+    white-space: nowrap;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
     padding-left: 0;
     transition: 0.2s;
+    padding-right: 0.5vw;
+    opacity: 0;
 }
 
 /* Styling for additional divs inside main panel */
 .panel div {
     padding-left: 0.5vw;
+}
+
+/* Styling for main panel. */
+#main_panel:hover {
+    width: 20vw;
+    padding-right: 0;
+    opacity: 1;
 }
