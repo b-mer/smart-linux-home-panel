@@ -53,6 +53,16 @@ body {
     cursor: pointer;
 }
 
+/* Trash tool */
+.trash {
+    cursor: pointer;
+    background-color: #101010;
+    padding: 5px;
+    color: #ffffff;
+    height: 20vh;
+    width: 10vw;
+}
+
 
 /* Styling for main panel. */
 .panel {
