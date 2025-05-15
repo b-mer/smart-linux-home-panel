@@ -6,6 +6,7 @@
 body {
     color: white;
     background-color: #2b2b2b;
+    height: 100vh;
 }
 
 /* Styling for main content outside panel. */
@@ -17,6 +18,28 @@ body {
     padding-bottom: 1vh;
     transition: 0.2s;
     margin-left: 0;
+}
+
+/* Styling for widget. */
+.widget {
+    cursor: grab;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+/* Styling for snap boxes for widgets. */
+.widget_snapper {
+    background-color: rgb(0,0,0,0.5);
+    flex: 1;
+}
+
+/* Styling for widget container div. */
+.widget_container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    height: 100vh;
 }
 
 /* Styling for panel button list. */
